@@ -3,4 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Friends</string>
     <string name="title_notifications">Profile</string>
+    <string name="starter_hac">Starter Hacks</string>
+    <string name="jenna_fab">Jenna Fab</string>
+    <string name="jenna1">\@JennaIsFab</string>
+    <string name="promises_ke">100% PROMISES KEPT</string>
+    <string name="some_id">(2020)</string>
+
+
 </resources>
