@@ -165,7 +165,7 @@
                 android:text="I agree to donate $20.00 towards Coronavirus if I break my promise." />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/location"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Confirm" />

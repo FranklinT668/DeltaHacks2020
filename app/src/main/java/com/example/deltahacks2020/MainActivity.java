@@ -14,9 +14,12 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
+import java.sql.BatchUpdateException;
+
 public class MainActivity extends AppCompatActivity {
 
     private ImageView button;
+    private ImageView button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +42,26 @@ public class MainActivity extends AppCompatActivity {
                 openContracts();
             }
         });
+
+        button2 = (ImageView) findViewById(R.id.location);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMaps();
+            }
+        });
+
+
+    }
+
+    public void openMaps(){
+        Intent intent = new Intent(this, MapsActivity.class);
+        startActivity(intent);
     }
 
     public void openContracts(){
         Intent intent = new Intent(this, contracts.class);
         startActivity(intent);
-    }
+}
 
 }
