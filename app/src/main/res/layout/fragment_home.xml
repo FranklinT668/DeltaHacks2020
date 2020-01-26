@@ -147,7 +147,29 @@
 
         />
 
+    <TextView
+        android:id="@+id/two_line_it"
+        android:layout_width="106dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="73dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="241dp"
+        android:text="@string/two_line_it"
+        android:textAppearance="@style/two_line_it"
+        android:lineSpacingExtra="5sp"
+        android:translationY="-2.62sp"
+        android:gravity="top"
+        />
 
+    <View
+        android:id="@+id/rectangle_3"
+        android:layout_width="360dp"
+        android:layout_height="56dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_3"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
